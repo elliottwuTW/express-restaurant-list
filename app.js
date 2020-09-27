@@ -8,7 +8,7 @@ const app = express()
 const port = 3000
 
 // Set the template engine
-app.engine('handlebars', exphdbs({ defaultLayout: 'main' }))  // main.handlebars is the Layout
+app.engine('handlebars', exphdbs({ defaultLayout: 'main' }))// main.handlebars is the Layout
 app.set('view engine', 'handlebars')
 
 // Set the static files routing
@@ -31,6 +31,7 @@ app.get('/search', (req, res) => {
   const matchRestaurant = restaurantList.results.filter(restaurant => {
     return (restaurant.name.toLowerCase().includes(keyword.toLowerCase())) || (restaurant.category.includes(keyword))
   })
+
   res.render('index', { restaurantInfo: matchRestaurant, keyword })
 })
 
