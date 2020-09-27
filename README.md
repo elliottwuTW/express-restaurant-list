@@ -2,7 +2,7 @@
 A movie list app with the given [restaurant.json](https://drive.google.com/open?id=1W-BD9-c8zJRYCwAD8yhqQdLwcUdN8GZi) using Node.js, Express, ExpressHandlebars, Bootstrap and other packages.
 
 ### Main Page
-![image](https://github.com/elliottwuTW/express-restaurant-list/tree/master/public/project-picture.png)
+![](https://raw.githubusercontent.com/elliottwuTW/express-restaurant-list/master/public/project-picture.png)
 
 ### Features
 - The whole restaurants list shown on the main page with the corresponding information, including
@@ -46,4 +46,4 @@ npm run dev
 Elliott Wu [elliottwuTW](https://github.com/elliottwuTW)
 
 #### Version
-1.0.0
+1.1.0
